@@ -33,9 +33,9 @@ or
 
 3. Update the git origin URL if you wish to push your changes to your own repository:
 
-```bash
-git remote set-url origin https://github.com/your-username/vue-package-starter.git
-```
+    ```bash
+    git remote set-url origin https://github.com/your-username/vue-package-starter.git
+    ```
 
 4. Start the development server:
 
