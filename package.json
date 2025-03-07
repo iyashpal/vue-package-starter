@@ -1,0 +1,35 @@
+{
+  "name": "vue-package-starter",
+  "version": "1.0.0",
+  "description": "Starter package for Vue.js applications",
+  "license": "MIT",
+  "author": "Yash Pal <iyashpal.dev@gmail.com>",
+  "type": "module",
+  "main": "index.umd.js",
+  "module": "index.es.js",
+  "types": "dist/types/index.d.ts",
+  "exports": {
+    "types": "./dist/types/index.d.ts",
+    "import": "./dist/index.es.js",
+    "require": "./dist/index.umd.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.1",
+    "vite-plugin-dts": "^4.5.3",
+    "vue": "^3.5.13",
+    "vue-tsc": "^2.2.8"
+  }
+}
